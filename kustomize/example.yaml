@@ -1,3 +1,4 @@
+# this is a simple example, but of what NOT to to (put kustomize configurations inline), appset-gobg.yaml is preferred - PY
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
