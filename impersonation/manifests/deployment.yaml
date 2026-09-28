@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       # - image: gcr.io/kuar-demo/kuard-amd64:blue
-      - image: gcr.io/kuard-demo/kuard-amd64:blue
+      - image: wzxmtlw/kuard-demo:latest
         name: kuard-amd64
         resources: {}
