@@ -17,6 +17,7 @@ spec:
         app: kuard
     spec:
       containers:
+      # gcr.io isn't a thing anymore, but there are lots of kuard images out there on dockerhub - PY
       # - image: gcr.io/kuar-demo/kuard-amd64:blue
       - image: wzxmtlw/kuard-demo:latest
         name: kuard-amd64
