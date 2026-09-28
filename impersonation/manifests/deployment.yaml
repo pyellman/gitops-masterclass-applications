@@ -17,6 +17,7 @@ spec:
         app: kuard
     spec:
       containers:
-      - image: gcr.io/kuar-demo/kuard-amd64:blue
+      # - image: gcr.io/kuar-demo/kuard-amd64:blue
+      - image: gcr.io/kuard-demo/kuard-amd64:blue
         name: kuard-amd64
         resources: {}
